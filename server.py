@@ -1,4 +1,4 @@
-# 쉘 창 여는 법
+# Repl.it 쉘 창 여는 법
 # Cmd+Shift+P(Ctrl+Shift+P)
 # open shell
 import socket
