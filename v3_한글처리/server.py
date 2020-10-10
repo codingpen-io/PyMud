@@ -24,7 +24,7 @@ while True:
         # data == None or len(data) == 0
         if not data:
             break
-        print("received", addr, data.decode())
+        print("received", addr, data.decode('utf-8'))
 
         client.sendall(data)
     client.close()
